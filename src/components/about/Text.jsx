@@ -77,14 +77,14 @@ export default function Text() {
         after="opacity-1 scale-[1]"
         duration="2s"
       >
-        <div className="flex my-4 w-full justify-around items-center">
-          <a href="/assets/pdf/resume_sijan.pdf">
+        {/* <div className="flex my-4 w-full justify-around items-center">
+          <a href="" target="_blank">
             <div className="flex items-center gap-2 md:gap-4  p-2 border rounded-lg hover:bg-[#6d28d9] duration-500 hover:scale-[1.1] ">
               <FiDownload className="w-5 h-5 " />
               <span>DOWNNLOAD CV</span>
             </div>
           </a>
-        </div>
+        </div> */}
       </Animation>
     </div>
   );

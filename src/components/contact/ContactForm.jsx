@@ -1,9 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import {
-  AiOutlineGithub,
-  AiOutlineLinkedin,
-  AiOutlineTwitter,
-} from "react-icons/ai";
+import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
@@ -54,10 +50,10 @@ const Contact = () => {
       setEmptyError(false);
       emailjs
         .sendForm(
-          "service_qcvilcy",
-          "template_k5wf2a9",
+          "service_i4d7or9",
+          "template_hhs9fo5",
           form.current,
-          "t0v8p_cwynY-UK2Ut"
+          "sAyhX034uFwj7dZLB"
         )
         .then(
           (result) => {
