@@ -1,4 +1,4 @@
-import React, {  useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import {
   AiOutlineGithub,
   AiOutlineLinkedin,
@@ -86,7 +86,14 @@ const Contact = () => {
     setMessageFailed(false);
   }, []);
   return (
-    <div ref={animatedDivRef} className={` ${isVisible ? "opacity-1 translate-x-0 scale-[1]" : "opacity-0 scale-[0.8] "} duration-[2s] flex flex-col w-full md:w-1/2 items-center justify-center gap-4 `}>
+    <div
+      ref={animatedDivRef}
+      className={` ${
+        isVisible
+          ? "opacity-1 translate-x-0 scale-[1]"
+          : "opacity-0 scale-[0.8] "
+      } duration-[2s] flex flex-col w-full md:w-1/2 items-center justify-center gap-4 `}
+    >
       <div className=" backdrop-blur-lg w-full  rounded-[1em]">
         <div className="text-center w-full  md:p-2 rounded-[0.2rem] py-4 flex flex-col gap-8">
           <form
@@ -108,7 +115,7 @@ const Contact = () => {
               value={formData.message}
               className="bg-transparent border-2 border-[#c026d3] w-full p-2 rounded-[0.4rem] md:hover:translate-x-2 duration-300 focus:outline-none focus:border-green-400"
               rows="5"
-              placeholder="Hi, Sijan."
+              placeholder="Hi, Yubraj."
             ></textarea>
 
             <button className="bg-[#701a75] p-3  rounded-[0.4rem] focus:outline-none focus:border-green-400 md:hover:translate-x-2 duration-300 hover:bg-green-600 ">
@@ -131,22 +138,14 @@ const Contact = () => {
           <div className="  flex flex-col items-center justify-center p-4 gap-4 ">
             <div className=" flex items-center justify-center ">
               <div className=" flex items-center gap-4">
-              <a href="https://twitter.com/s1j4n" >
-                <AiOutlineTwitter
-                  className="h-8 w-8 md:cursor-pointer hover:text-[#00acee] hover:scale-[1.4] ease-in-out duration-500 "
-                />
+                <a href="https://np.linkedin.com/in/yubraj-adhikari-581553232">
+                  <AiOutlineLinkedin className="h-8 w-8 md:cursor-pointer hover:text-[#0072b1] hover:scale-[1.4] ease-in-out duration-500 " />
                 </a>
-                <a href="https://linkedin.com/in/sijan1" >
-                <AiOutlineLinkedin
-                 
-                  className="h-8 w-8 md:cursor-pointer hover:text-[#0072b1] hover:scale-[1.4] ease-in-out duration-500 "
-                />
-                </a>
-                 <a href="https://github.com/sijan17" >
-                <AiOutlineGithub
-                  onClick={() => handleRedirect("https://github.com/sijan17")}
-                  className="h-8 w-8 md:cursor-pointer hover:text-[#171515] hover:bg-[#4078c0] rounded-full hover:scale-[1.2] ease-in-out duration-500 "
-                />
+                <a href="https://github.com/yube01">
+                  <AiOutlineGithub
+                    onClick={() => handleRedirect("https://github.com/yube01")}
+                    className="h-8 w-8 md:cursor-pointer hover:text-[#171515] hover:bg-[#4078c0] rounded-full hover:scale-[1.2] ease-in-out duration-500 "
+                  />
                 </a>
                 {/* <AiOutlineMail  className="h-8 w-8 md:cursor-pointer hover:text-green-700 ease-in-out duration-300 " /> */}
               </div>
@@ -161,7 +160,11 @@ const Contact = () => {
                   connect
                 </span>
                 <div
-                  className={`overflow-hidden text-center text-xl duration-[2s] ${connectHidden ? "opacity-0 scale-[0.8]" : "opacity-1 scale-[1] "}`}
+                  className={`overflow-hidden text-center text-xl duration-[2s] ${
+                    connectHidden
+                      ? "opacity-0 scale-[0.8]"
+                      : "opacity-1 scale-[1] "
+                  }`}
                 >
                   ❤️
                 </div>
