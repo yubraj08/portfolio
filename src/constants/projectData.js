@@ -43,14 +43,14 @@ export const projectData = [
   //     "cms/cms-big-3.png",
   //   ],
   // },
-  {
-    title: "Be Social",
-    desc: "Social media clone",
-    hostURL: "https://besocial8.netlify.app",
-    gitURL: "https://github.com/yube01/Social-Yube",
-    cover: "besocial.jpg",
-    images: [],
-  },
+  // {
+  //   title: "Be Social",
+  //   desc: "Social media clone",
+  //   hostURL: "https://besocial8.netlify.app",
+  //   gitURL: "https://github.com/yube01/Social-Yube",
+  //   cover: "besocial.jpg",
+  //   images: [],
+  // },
   // {
   //   title: "UURL",
   //   desc: "URL Shortner.",
