@@ -29,6 +29,14 @@ export const projectData = [
     cover: "search.jpg",
     images: [],
   },
+  {
+    title: "Google Drive Clone",
+    desc: "Full stack google drive clone with MERN stack",
+    hostURL: "https://google-drive-clones.netlify.app",
+    gitURL: "https://github.com/yube01/google-drive-clone",
+    cover: "googledrive.jpg",
+    images: [],
+  },
   // {
   //   title: "CMS",
   //   desc: "College Management System.",
