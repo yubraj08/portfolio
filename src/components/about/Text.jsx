@@ -78,7 +78,7 @@ export default function Text() {
         duration="2s"
       >
         <div className="flex my-4 w-full justify-around items-center">
-          <a href="/assets/pdf/Cv.pdf" target="_blank">
+          <a href="/assets/pdf/yubraj_adhikari.pdf" target="_blank">
             <div className="flex items-center gap-2 md:gap-4  p-2 border rounded-lg hover:bg-[#6d28d9] duration-500 hover:scale-[1.1] ">
               <FiDownload className="w-5 h-5 " />
               <span>DOWNNLOAD CV</span>

@@ -134,10 +134,10 @@ const Contact = () => {
           <div className="  flex flex-col items-center justify-center p-4 gap-4 ">
             <div className=" flex items-center justify-center ">
               <div className=" flex items-center gap-4">
-                <a href="https://np.linkedin.com/in/yubraj-adhikari-581553232">
+                <a href="https://np.linkedin.com/in/yubraj-adhikari-581553232" target="_blank">
                   <AiOutlineLinkedin className="h-8 w-8 md:cursor-pointer hover:text-[#0072b1] hover:scale-[1.4] ease-in-out duration-500 " />
                 </a>
-                <a href="https://github.com/yube01">
+                <a href="https://github.com/yube01" target="_blank">
                   <AiOutlineGithub
                     onClick={() => handleRedirect("https://github.com/yube01")}
                     className="h-8 w-8 md:cursor-pointer hover:text-[#171515] hover:bg-[#4078c0] rounded-full hover:scale-[1.2] ease-in-out duration-500 "

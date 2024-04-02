@@ -5,7 +5,7 @@ export default function Footer() {
       <div className="group-hover:text-xl group-hover:animate-spin ">©</div>
       <div className="group-hover:rotate-[360deg] "> Yubraj Adhikari, </div>
       <div className="group-hover:animate-pulse group-hover:text-blue-500 duration-[3s] cursor-pointer text-blue-500">
-        <a href="https://en.wikipedia.org/wiki/Vikram_Samvat">{currentYear}</a>
+        <a href="https://en.wikipedia.org/wiki/Anno_Domini" target="_blank">{currentYear}</a>
       </div>
     </div>
   );
