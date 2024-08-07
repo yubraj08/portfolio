@@ -30,6 +30,14 @@ export const projectData = [
     // images: ["chess/chess-1.png", "chess/chess-2.png"],
   },
   {
+    title: "My Academy Help",
+    desc: "A learning platform for student",
+    hostURL: "https://myacademyhelp.com/",
+    gitURL: "https://myacademyhelp.com/",
+    cover: "mha.jpg",
+    images: [],
+  },
+  {
     title: "Spectrum Shirts",
     desc: "Shirt design site build using ThreeJS",
     hostURL: "https://spectrum-shirts.vercel.app/",
