@@ -24,7 +24,7 @@ export const projectData = [
   {
     title: "NepNewz",
     desc: "News Portal site build using NextJs",
-    hostURL: "https://nep-newz-api.vercel.app/",
+    hostURL: "https://nep-news.vercel.app/",
     gitURL: "https://github.com/yube01",
     cover: "nepnews.jpg",
     // images: ["chess/chess-1.png", "chess/chess-2.png"],
