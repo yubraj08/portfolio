@@ -10,7 +10,7 @@ const Navbar = () => {
   const [isMenuHidden, setIsMenuHidden] = useState(true);
 
   return (
-    <div className="flex items-center justify-between  sticky pt-4 bg-[#1e293b] top-0 pb-2 z-[10] ">
+    <div className="flex items-center justify-between bg-black sticky pt-4 top-0 pb-2 z-[10] ">
       <Logo />
       <div className={`md:hidden hamburger relative`}>
         <RxHamburgerMenu
@@ -21,7 +21,7 @@ const Navbar = () => {
             !isMenuHidden ? "opacity-0" : "opacity-1"
           } h-8 w-8 transform transition-transform duration-[1s] ease-in-out ${
             !isMenuHidden ? "-rotate-90" : "rotate-0"
-          } cursor-pointer text-[#a855f7]`}
+          } cursor-pointer text-[#5af230]`}
         />
         <RxCross1
           onClick={() => {
@@ -32,13 +32,13 @@ const Navbar = () => {
                            isMenuHidden
                              ? "opacity-0 rotate-90 z-[-1]"
                              : "rotate-0 opacity-1 z-[10]"
-                         } cursor-pointer text-[#a855f7]`}
+                         } cursor-pointer text-[#5af230]`}
         />
       </div>
       <div
         className={`menu w-full md:w-auto  ${
           isMenuHidden ? "hidden" : ""
-        } md:flex border-2 rounded-lg md:border-none  absolute   top-[10vh]  duration-500  bg-[#1e293b] md:sticky md:min-w-auto flex-col md:flex-row justify-between lg:items-center shrink-0 gap-8 lg:w-1/2`}
+        } md:flex border-2 rounded-lg md:border-none  absolute   top-[10vh]  duration-500  md:sticky md:min-w-auto flex-col md:flex-row justify-between lg:items-center shrink-0 gap-8 lg:w-1/2`}
       >
         <NavItem
           icon={AiOutlineHome}

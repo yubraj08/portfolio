@@ -5,7 +5,7 @@ import Animation from "../../helpers/Animation"
 
 const Image = ({isVisible}) => {
 	return (
-		<Animation before="opacity-0 scale-[0.8]" after="opacity-1 scale-[1]" duration="2s" moreclass="w-full h-full  md:w-1/2 lg:h-[70vh]  md:h-[50vh]   hover:scale-[1.1] duration-[2s]">
+		<Animation before="opacity-0 scale-[0.5]" after="opacity-1 scale-[1]" duration="2s" moreclass="w-full h-full  md:w-1/2 lg:h-[70vh]  md:h-[50vh]   hover:scale-[1.1] duration-[2s]">
 			{/*<Canvas
 				camera={{
 					fov: 45,

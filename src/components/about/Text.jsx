@@ -24,7 +24,7 @@ export default function Text() {
         duration="2s"
       >
         <div className={` hover:-translate-y-2 duration-500`}>
-          <span className="text-[#d946ef] ">Coding </span> is fun. Isn't it ? 😉
+          <span className="text-[#5af230] ">Coding </span> is fun. Isn't it ? 😉
           <br />
         </div>
       </Animation>
@@ -36,7 +36,7 @@ export default function Text() {
         <div className="hover:-translate-y-2 duration-500">
           Well, I <span className="text-red-500 ">❤️</span> it anyways. My field
           of Interest's are building new{" "}
-          <span className="text-[#d946ef] ">
+          <span className="text-[#5af230] ">
             Web Technologies and Web Scraping.
           </span>{" "}
         </div>
@@ -50,8 +50,8 @@ export default function Text() {
         <div className="hover:-translate-y-2 duration-500">
           Whenever possible, I apply my passion for developing products with
           Modern Javascript Library and Frameworks like
-          <span className="text-[#d946ef] "> React.js</span> and{" "}
-          <span className="text-[#d946ef] ">Next.js</span>.
+          <span className="text-[#5af230] "> React.js</span> and{" "}
+          <span className="text-[#5af230] ">Next.js</span>.
         </div>
       </Animation>
       <Animation

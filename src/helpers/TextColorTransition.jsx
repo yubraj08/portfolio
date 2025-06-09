@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const TextColorTransition = ({
   initialColor = "white",
-  finalColor = "purple",
+  finalColor = "green",
   visibleAt = 0,
   text,
 }) => {
